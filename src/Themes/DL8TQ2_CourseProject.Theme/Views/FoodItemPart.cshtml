@@ -1,0 +1,12 @@
+﻿@model DL8TQ2_CourseProject.Module.ViewModels.FoodItemPartViewModel
+@{ var iconSize = 30; }
+
+<div class="food-item">
+	<div class="food-title">@Model.Name</div>
+	<div class="food-description">@Model.Description</div>
+	<div class="food-price">@T["{0} Ft.-", Model.Price]</div>
+	<div class="food-icons">
+		<img hidden=@(!Model.Vegan) src=@(Model.Vegan ? "/DL8TQ2_CourseProject.Theme/vegan.png" : "") width=@iconSize height=@iconSize />
+		<img hidden=@(!Model.GlutenFree) src=@(Model.GlutenFree ? "/DL8TQ2_CourseProject.Theme/glutenfree.png" : "") width=@iconSize height=@iconSize />
+	</div>
+</div>

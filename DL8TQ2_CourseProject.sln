@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8E8107C0-D730-474C-BDEF-812988D9AEE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DL8TQ2_CourseProject.Web", "src\DL8TQ2_CourseProject.Web\DL8TQ2_CourseProject.Web.csproj", "{153E6C91-98FE-4025-ABBB-8FAC6555D672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{AD205728-AD29-49E9-BF62-FCE776455CB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DL8TQ2_CourseProject.Module", "src\Modules\DL8TQ2_CourseProject.Module\DL8TQ2_CourseProject.Module.csproj", "{4047D698-4381-450A-B308-BF763E92F57B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{02824ADE-D78C-4D1E-82A3-DE251198023C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DL8TQ2_CourseProject.Theme", "src\Themes\DL8TQ2_CourseProject.Theme\DL8TQ2_CourseProject.Theme.csproj", "{23AE8E0A-5ACB-42A4-8EB4-8731B097E622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{153E6C91-98FE-4025-ABBB-8FAC6555D672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153E6C91-98FE-4025-ABBB-8FAC6555D672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153E6C91-98FE-4025-ABBB-8FAC6555D672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153E6C91-98FE-4025-ABBB-8FAC6555D672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4047D698-4381-450A-B308-BF763E92F57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4047D698-4381-450A-B308-BF763E92F57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4047D698-4381-450A-B308-BF763E92F57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4047D698-4381-450A-B308-BF763E92F57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23AE8E0A-5ACB-42A4-8EB4-8731B097E622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AE8E0A-5ACB-42A4-8EB4-8731B097E622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AE8E0A-5ACB-42A4-8EB4-8731B097E622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AE8E0A-5ACB-42A4-8EB4-8731B097E622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{153E6C91-98FE-4025-ABBB-8FAC6555D672} = {8E8107C0-D730-474C-BDEF-812988D9AEE0}
+		{AD205728-AD29-49E9-BF62-FCE776455CB7} = {8E8107C0-D730-474C-BDEF-812988D9AEE0}
+		{4047D698-4381-450A-B308-BF763E92F57B} = {AD205728-AD29-49E9-BF62-FCE776455CB7}
+		{02824ADE-D78C-4D1E-82A3-DE251198023C} = {8E8107C0-D730-474C-BDEF-812988D9AEE0}
+		{23AE8E0A-5ACB-42A4-8EB4-8731B097E622} = {02824ADE-D78C-4D1E-82A3-DE251198023C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD8D3E8E-C908-461B-93D3-4A25B6E6FB04}
+	EndGlobalSection
+EndGlobal

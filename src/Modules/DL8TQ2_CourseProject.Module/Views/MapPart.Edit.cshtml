@@ -1,0 +1,7 @@
+﻿@model DL8TQ2_CourseProject.Module.ViewModels.MapPartViewModel
+
+<fieldset class="form-group" asp-validation-class-for="GoogleMapUrl">
+	<label asp-for="GoogleMapUrl">@T["Google Map URL"] <span asp-validation-for="GoogleMapUrl"></span></label>
+	<input asp-for="GoogleMapUrl" class="form-control" />
+	<span class="hint">@T["URL of location copied from Google Maps"] </span>
+</fieldset>
